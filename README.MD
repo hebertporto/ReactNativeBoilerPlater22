@@ -60,4 +60,16 @@ module.exports = {
 
 ## Prettier Config
 
+> Add Prettier extension to the project then create prettierrc.js file in the root of the project
+
+```js
+module.exports = {
+  bracketSpacing: true,
+  jsxBracketSameLine: true,
+  singleQuote: true,
+  trailingComma: 'all',
+  arrowParens: 'avoid',
+};
+```
+
 ## Testing
