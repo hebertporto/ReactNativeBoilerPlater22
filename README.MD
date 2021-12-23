@@ -27,7 +27,7 @@ module.exports = {
         cwd: 'babelrc',
         extensions: ['.ts', '.tsx', '.js', '.ios.js', '.android.js'],
         alias: {
-          '@myapp': './app',
+          '@app': './src',
         },
       },
     ],
@@ -44,7 +44,7 @@ module.exports = {
     ...,
     "baseUrl": "./",
     "paths": {
-        "@app/*": ["src/*/index", "app/*"]
+        "@app/*": ["src/*/index", "src/*"]
     },
     ...,
 }

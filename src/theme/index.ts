@@ -1,6 +1,6 @@
-import { colors } from './colors';
-import { containers } from './containers';
-import { text } from './text';
+import { colors } from '@app/theme/colors';
+import { containers } from '@app/theme/containers';
+import { text } from '@app/theme/text';
 
 const theme = { containers, colors, text };
 
